@@ -3,13 +3,19 @@ body{
     padding: 10px 1%;
     background-color: #FADEAA;
 }
-p{
-    margin-top: 15px;    
-}
 .container{
     width: 960px;
     display: block;
     margin: 0 auto 0 auto;
+}
+p{
+    margin-top: 15px;
+}
+h1, h2{
+    color:rgb(141, 103, 20)
+}
+img{
+    margin-top: 15px;
 }
 .links{
     padding: 5px;
