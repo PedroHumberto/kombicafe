@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 1%;
+    background-color: #FADEAA;
+}
+p{
+    margin-top: 15px;    
+}
+.container{
+    width: 960px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.links{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(165, 42, 42, 0.753);
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 1% 0;
+}
+.nav{
+    font-weight: 900;
+    font-size: large;
+    text-decoration: none !important;
+    color: whitesmoke;
+    padding-right: 8%;
+}
+.titulo_banner h1{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.primeiro_paragrafo h2{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+h1, h2{
+    color:rgb(141, 103, 20)
+}
+.banner{
+    text-align: center;
+}
+hr{
+    margin-top: 20px;    
+}
+.copyright{
+    font-size: small;
+}
