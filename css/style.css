@@ -17,21 +17,24 @@ h1, h2{
 img{
     margin-top: 15px;
 }
-.links{
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ul {
     background-color: rgba(165, 42, 42, 0.753);
+    text-transform: uppercase;    
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     padding: 1% 0 1% 0;
 }
-.nav{
-    font-weight: 700;
-    font-size: large;
-    text-decoration: none !important;
+nav a {
+    text-decoration: none;
     color: whitesmoke;
-    padding-right: 8%;
+}
+header h1{
+    display: none;
+}
+li {
+    text-decoration: none !important; 
+    padding-right: 7%; 
+    font-weight: 800;
 }
 .titulo_banner h1{
     text-align: center;
@@ -45,7 +48,8 @@ img{
     font-weight: bolder;
 }
 h1, h2{
-    color:rgb(141, 103, 20)
+    color:rgb(141, 103, 20);
+    margin-top: 15px;
 }
 .banner{
     text-align: center;

@@ -12,32 +12,39 @@ p{
     margin-top: 15px;
 }
 h1, h2{
-    color:rgb(141, 103, 20)
+    color:rgb(141, 103, 20);
+    margin-top: 15px;
 }
 img{
     margin-top: 15px;
 }
-.links{
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ul {
     background-color: rgba(165, 42, 42, 0.753);
+    text-transform: uppercase;    
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     padding: 1% 0 1% 0;
 }
-.nav{
-    font-weight: 700;
-    font-size: large;
-    text-decoration: none !important;
+nav a {
+    text-decoration: none;
     color: whitesmoke;
-    padding-right: 8%;
+}
+header h1{
+    display: none;
+}
+li {
+    text-decoration: none !important; 
+    padding-right: 7%; 
+    font-weight: 800;
 }
 .titulo_banner h1{
     text-align: center;
     margin-bottom: 12px;
     font-size: 32px;
     font-weight: bolder;
+}
+table img{
+    margin-right: 10px;
 }
 .cafes h3{
     color:rgb(141, 103, 20);
@@ -52,7 +59,7 @@ caption h2{
     padding: 3%;
 
 }
-.tabela{
+#tabela{
     margin-left: auto;
     margin-right: auto;
     width: 840px;
@@ -66,18 +73,22 @@ th {
 td {
     vertical-align: top;
     text-align: justify;
-    padding: 1%;    
+    padding: 1%;
+   
 }
 .titulo{
     font-weight: bolder;
 }
-footer{
+tfoot td{
     text-align: center;
-    width: 840px;
     background-color: rgba(165, 42, 42, 0.753);
     color: white;
     font-size: larger;
     font-weight: 600;
-}
+    padding: 0% !important;
 
+}
+.copyright{
+    font-size: small;
+}
 
