@@ -1,0 +1,21 @@
+{
+  "crawl": false,
+  "customTests": [],
+  "dest": "/PATH/TO/modernizr-output.js",
+  "tests": [
+    "inputtypes",
+    "bgpositionxy",
+    "backgroundsize",
+    "borderimage",
+    "borderradius",
+    "boxshadow",
+    "boxsizing",
+    "displaytable",
+    "flexbox",
+    "cssscrollbar"
+  ],
+  "options": [
+    "setClasses"
+  ],
+  "uglify": true
+}

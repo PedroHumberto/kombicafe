@@ -1,27 +1,30 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     padding: 10px 1%;
     background-color: #FADEAA;
 }
-.container{
+.container {
     width: 960px;
     display: block;
     margin: 0 auto 0 auto;
 }
-p{
+p {
     margin-top: 15px;
 }
-h1, h2{
+h1, h2 {
     color:rgb(141, 103, 20)
 }
 img{
     margin-top: 15px;
 }
-main img{
+main img {
     position: relative;
     top: 150px;
     width: 450px;
     border-radius: 10px;
+}
+section h3{
+    display: none;
 }
 ul {
     background-color: rgba(165, 42, 42, 0.753);
@@ -33,9 +36,8 @@ ul {
 nav a {
     text-decoration: none;
     color: whitesmoke;
-
 }
-header h1{
+header h1 {
     display: none;
 }
 li {
@@ -43,15 +45,19 @@ li {
     padding-right: 7%; 
     font-weight: 800;
 }
-.titulo_banner h1{
+main h2 {
     text-align: center;
-    margin-bottom: 12px;
-    font-size: 32px;
-    font-weight: bolder;
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 900;
 }
-
+.boxform {
+    box-shadow: 1px 1px #ad9974, 1em 0 0.4em #BAA57F;
+    
+}
 form {
     /* Apenas para centralizar o form na página */
+    font-weight: bolder;
     margin: 0 auto;
     width: 400px;
     height: 400px;
@@ -59,11 +65,10 @@ form {
     bottom:270px;
     /* Para ver as bordas do formulário */
     padding: 1em;
-    border: 5px solid #BAA57F;
     border-radius: 1em;
     margin-top: 50px;
     margin-right: 30px;
-    background-color: #AD9465;
+    background-color: #ad94654f;
 }
 form div + div {
     margin-top: 1em;
@@ -75,26 +80,16 @@ label {
     text-align: right;
 }
 input, textarea {
-    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
-    font: 1em sans-serif;
-
     /* Para dar o mesmo tamanho a todos os campo de texto */
     width: 300px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
-    /* Para harmonizar o look & feel das bordas nos campos de texto*/
-    border: 1px solid #999;
+    box-shadow: 2px 2px black, -0.1em 0 0.1em;
 }
-textarea {
-    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
-    vertical-align: top;
-
-    /* Para dar espaço suficiente para digitar algum texto */
-    height: 16em;
-
-    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
-    resize: none;
+textarea {    
+    vertical-align: top; /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    height: 20em; /* Para dar espaço suficiente para digitar algum texto */
+    resize: none; /* Limita o tamanho da box */
 }
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */

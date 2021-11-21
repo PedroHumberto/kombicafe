@@ -43,6 +43,10 @@ li {
     font-size: 32px;
     font-weight: bolder;
 }
+.banner{
+    width: 100%;
+    height: auto;
+}
 table img{
     margin-right: 10px;
 }

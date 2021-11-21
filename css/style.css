@@ -42,21 +42,20 @@ li {
     font-size: 32px;
     font-weight: bolder;
 }
-.primeiro_paragrafo h2{
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bolder;
+.banner{
+    width: 100%;
+    height: auto;
 }
+
 h1, h2{
     color:rgb(141, 103, 20);
     margin-top: 15px;
-}
-.banner{
-    text-align: center;
 }
 hr{
     margin-top: 20px;    
 }
 .copyright{
     font-size: small;
+    width: 480px;
+    float: right;
 }

@@ -1,0 +1,18 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/inputtypes",
+    "test/css/backgroundposition-xy",
+    "test/css/backgroundsize",
+    "test/css/borderimage",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/boxsizing",
+    "test/css/displaytable",
+    "test/css/flexbox",
+    "test/css/scrollbars"
+  ]
+}

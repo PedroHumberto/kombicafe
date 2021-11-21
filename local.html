@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/local.css">
     <script src="modernizr-custom.js"></script>
-    <title>Contato</title>
+    <title>Local</title>
 </head>
 <body>
     <div class="container">
@@ -28,36 +29,15 @@
                 </ul>           
             </nav>
         </header>
-        <main>
-            <h2>Contate-nos</h2>
-            <img src="images/cafécontato.jpg" alt="cafécontato">
-            <section>
-                <h3>Formulario:</h3>
-                <form class="boxform" action="/contato.html" method="post">
-                    <div>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" />
-                    </div>
-                    <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" />
-                    </div>
-                    <div>
-                        <label for="msg">Mensagem:</label>
-                        <textarea id="msg"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-            </section>
-        </main>
-        <footer>
-            <hr>
-            <div class="copyright">
-                <p> Copyright Pedro Humberto</p>
+        <div class="local">
+            <div class="mapa">
+                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=R.%20do%20Ros%C3%A1rio%2C%20128%20-%20Centro%20rio%20de%20janeiro&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
-        </footer>
+            <div class="endereco">
+                <p>Rua do Rosário, 128 - Centro Rio de Janeiro</p>
+            </div>
+        </div>
     </div>
+    
 </body>
 </html>

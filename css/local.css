@@ -1,0 +1,9 @@
+.mapa{
+    margin-top: 10px;
+    position: relative;
+}
+.endereco{
+    position: relative;
+    bottom: 270px;
+    left: 620px;
+}
