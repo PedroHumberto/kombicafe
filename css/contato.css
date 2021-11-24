@@ -37,49 +37,73 @@ main h2 {
 }
 .boxform {
     box-shadow: 1px 1px #ad9974, 1em 0 0.4em #BAA57F;
-    
 }
 form {
-    /* Apenas para centralizar o form na página */
     font-weight: bolder;
     margin: 0 auto;
     width: 400px;
-    height: 400px;
+    height: 435px;
     position: relative;
     bottom:270px;
-    /* Para ver as bordas do formulário */
     padding: 1em;
     border-radius: 1em;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 30px;
     background-color: #ad94654f;
 }
 form div + div {
     margin-top: 1em;
 }
-label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
+label { /*Colocar titulo dos textos acima dos campos*/
+    display: block;
     width: 90px;
-    text-align: right;
+    margin-bottom: 3px;
+    margin-left: 53px;
 }
-input, textarea {
-    /* Para dar o mesmo tamanho a todos os campo de texto */
+input, textarea { /*Mesmo tamanho para todos os campos de texto*/
     width: 300px;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     box-shadow: 2px 2px black, -0.1em 0 0.1em;
+    margin-left: 50px;
 }
-textarea {    
-    vertical-align: top; /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
-    height: 20em; /* Para dar espaço suficiente para digitar algum texto */
-    resize: none; /* Limita o tamanho da box */
+textarea {
+    height: 20em; /*Espaço suficiente para digitar*/
+    resize: none; /*Remove o poder do usuario de altera o tamanho da text-box*/
 }
 .button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #615237;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 124px;
 }
-button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-    margin-left: .5em;
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; /*Movimento do botão*/
+}
+.button span:after {
+    content: '\00bb'; /*Representa o >> ao passar pelo botão*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
