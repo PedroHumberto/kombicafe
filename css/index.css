@@ -8,6 +8,9 @@
     font-size: 23px;
     font-weight: bolder;
 }
+.escolha-cafe p{
+    text-align: justify;
+}
 .escolha-cafe img{
     float: left;
     
@@ -17,7 +20,9 @@
     float: right;
     position: relative;
     bottom: 161px;
-    height: 149px;
+}
+.onde-encontrar p{
+    text-align: justify;
 }
 .onde-encontrar h2{
     text-align: center;
