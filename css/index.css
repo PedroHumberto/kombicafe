@@ -1,30 +1,31 @@
-.primeiro_paragrafo {
-    width: 460px;
-    height: auto;
-    text-align: justify;
-}
-.primeiro_paragrafo h2{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bolder;
-}
-.cafe{
-    float: left;
-    margin-top: 20px;
-}
-.onde_encontrar{
+.escolha-cafe{
     width: 480px;
-    position: relative;
-    left: 480px;
-    bottom: 152px;
+    margin-bottom: 10px;
+
 }
-.onde_encontrar h2{
+.escolha-cafe h2{
     text-align: center;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bolder;
 }
-.mapa{
+.escolha-cafe img{
     float: left;
-    margin-top: 29px;
+    
+}
+.onde-encontrar{
+    width: 470px;
+    float: right;
+    position: relative;
+    bottom: 161px;
+    height: 149px;
+}
+.onde-encontrar h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.onde-encontrar img {
+    float: left;
+    position: relative;
+    top: 20px;
 }
